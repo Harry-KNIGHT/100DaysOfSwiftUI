@@ -11,6 +11,9 @@
 		3C0547CB27877F500039A34C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0547CA27877F500039A34C /* ContentView.swift */; };
 		3C0547CD27877F520039A34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0547CC27877F520039A34C /* Assets.xcassets */; };
 		3C0547D027877F520039A34C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0547CF27877F520039A34C /* Preview Assets.xcassets */; };
+		3C0547D7278786420039A34C /* StateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0547D6278786420039A34C /* StateButtonView.swift */; };
+		3C0547D9278786AD0039A34C /* BindingStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0547D8278786AD0039A34C /* BindingStateView.swift */; };
+		3C6CAC1E27878B3100A541FF /* LoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CAC1D27878B3100A541FF /* LoopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3C0547CA27877F500039A34C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C0547CC27877F520039A34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0547CF27877F520039A34C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C0547D6278786420039A34C /* StateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateButtonView.swift; sourceTree = "<group>"; };
+		3C0547D8278786AD0039A34C /* BindingStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingStateView.swift; sourceTree = "<group>"; };
+		3C6CAC1D27878B3100A541FF /* LoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +41,7 @@
 		3C0547BC27877F500039A34C = {
 			isa = PBXGroup;
 			children = (
-				3C0547C727877F500039A34C /* WeSplit */,
+				3C0547C727877F500039A34C /* CodeExemple */,
 				3C0547C627877F500039A34C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +54,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C0547C727877F500039A34C /* WeSplit */ = {
+		3C0547C727877F500039A34C /* CodeExemple */ = {
 			isa = PBXGroup;
 			children = (
 				3C0547C827877F500039A34C /* WeSplitApp.swift */,
 				3C0547CA27877F500039A34C /* ContentView.swift */,
+				3C0547D6278786420039A34C /* StateButtonView.swift */,
+				3C0547D8278786AD0039A34C /* BindingStateView.swift */,
+				3C6CAC1D27878B3100A541FF /* LoopView.swift */,
 				3C0547CC27877F520039A34C /* Assets.xcassets */,
 				3C0547CE27877F520039A34C /* Preview Content */,
 			);
-			path = WeSplit;
+			path = CodeExemple;
 			sourceTree = "<group>";
 		};
 		3C0547CE27877F520039A34C /* Preview Content */ = {
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0547CB27877F500039A34C /* ContentView.swift in Sources */,
+				3C0547D7278786420039A34C /* StateButtonView.swift in Sources */,
+				3C0547D9278786AD0039A34C /* BindingStateView.swift in Sources */,
+				3C6CAC1E27878B3100A541FF /* LoopView.swift in Sources */,
 				3C0547C927877F500039A34C /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +280,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CodeExemple/Preview Content\"";
 				DEVELOPMENT_TEAM = 99M75C322U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CodeExemple/Preview Content\"";
 				DEVELOPMENT_TEAM = 99M75C322U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
