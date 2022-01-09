@@ -18,6 +18,7 @@ struct ContentView: View {
     
     let units: [UnitLength] = [.meters, .kilometers, .miles, .yards]
     let formatter: MeasurementFormatter
+    
     var result: String {
         let inputMeasurement = Measurement(value: input, unit: inputUnit)
         let outputMeasurement = inputMeasurement.converted(to: inputUnit)
