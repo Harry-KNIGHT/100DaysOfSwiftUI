@@ -2,7 +2,7 @@
 //  GuessTheFlagApp.swift
 //  GuessTheFlag
 //
-//  Created by Elliot knight on 09/01/2022.
+//  Created by Elliot knight on 12/01/2022.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct GuessTheFlagApp: App {
     var body: some Scene {
         WindowGroup {
-           ShowsAlertMessageView()
+            ContentView()
         }
     }
 }
