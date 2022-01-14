@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Poland", "Russia", "Spain", "UK", "US", "Nigeria"].shuffled()
+    @State private var countries = allCountries.shuffled()
+    
+    static let allCountries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Poland", "Russia", "Spain", "UK", "US", "Nigeria"]
     @State private var showingScore = false
     @State private var scoreTitle = ""
     @State private  var correctAnswer = Int.random(in: 0...2)
@@ -99,6 +101,7 @@ struct ContentView: View {
     }
     
     func askQuestion() {
+        countries.remove(at: goodAnswer)
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         answersCounter += 1
@@ -108,6 +111,7 @@ struct ContentView: View {
     func startGame() {
         answersCounter = 0
         goodAnswer = 0
+        countries = Self.allCountries
         askQuestion()
     }
     
