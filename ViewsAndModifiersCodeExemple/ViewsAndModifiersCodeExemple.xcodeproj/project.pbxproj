@@ -11,6 +11,7 @@
 		3C147B2627947FDF001D20CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C147B2527947FDF001D20CB /* ContentView.swift */; };
 		3C147B2827947FE0001D20CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C147B2727947FE0001D20CB /* Assets.xcassets */; };
 		3C147B2B27947FE0001D20CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C147B2A27947FE0001D20CB /* Preview Assets.xcassets */; };
+		3C412D302794A4C100350B7A /* TitleModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C412D2F2794A4C100350B7A /* TitleModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3C147B2527947FDF001D20CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C147B2727947FE0001D20CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C147B2A27947FE0001D20CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C412D2F2794A4C100350B7A /* TitleModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3C147B2327947FDF001D20CB /* ViewsAndModifiersCodeExempleApp.swift */,
 				3C147B2527947FDF001D20CB /* ContentView.swift */,
+				3C412D2F2794A4C100350B7A /* TitleModifiers.swift */,
 				3C147B2727947FE0001D20CB /* Assets.xcassets */,
 				3C147B2927947FE0001D20CB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C412D302794A4C100350B7A /* TitleModifiers.swift in Sources */,
 				3C147B2627947FDF001D20CB /* ContentView.swift in Sources */,
 				3C147B2427947FDF001D20CB /* ViewsAndModifiersCodeExempleApp.swift in Sources */,
 			);
