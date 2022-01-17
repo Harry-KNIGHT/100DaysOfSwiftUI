@@ -10,8 +10,31 @@ import SwiftUI
 struct TitleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .font(.title)
-            .foregroundColor(.blue)
+            .padding()
+            .background(.black)
+            .font(.largeTitle)
+            .foregroundStyle(.white)
+    }
+}
+
+struct MyNameModifier: ViewModifier {
+    var text: String
+    func body(content: Content) -> some View {
+        ZStack(alignment: .bottomTrailing) {
+        content
+            Text(text)
+                .padding()
+                .font(.caption)
+                .background(.red)
+                .foregroundColor(.white)
+            
+        }
+    }
+}
+
+extension View {
+    func myName(with text: String) -> some View {
+        modifier(MyNameModifier(text: text))
     }
 }
 
@@ -20,10 +43,15 @@ extension View {
         modifier(TitleModifier())
     }
 }
+
+
 struct TitleModifiers: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .title()
+        Color.blue
+            .frame(width: 300, height: 300, alignment: .center)
+            .myName(with: "Elliot Knight")
+            
+        
     }
 }
 
